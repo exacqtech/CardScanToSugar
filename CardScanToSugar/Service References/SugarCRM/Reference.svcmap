@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0e11ec38-52b7-462d-b3f0-7f168ffd83d0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://192.168.1.227/Sugar/soap.php?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="f2e5e3d0-d69c-4ae7-a21a-81a6e8682a88" SourceId="1" SourceUrl="http://schemas.xmlsoap.org/wsdl/" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="9e2f4257-a987-420b-91f5-ac5e24692915" SourceId="1" SourceUrl="http://schemas.xmlsoap.org/soap/encoding/" />
+    <MetadataFile FileName="soap1.wsdl" MetadataType="Wsdl" ID="e4d08359-1460-421f-a5a6-4b77121001aa" SourceId="1" SourceUrl="https://192.168.1.227/Sugar/soap.php?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
